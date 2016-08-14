@@ -1,9 +1,9 @@
 <section class="album-covers container clearfix">
     <div class="collection-album-container column fourth" ng-repeat="album in collection.albums">
-        <img src="{{ alubm.albumArtUrl }}"/>
+        <img src="{{ album.albumArtUrl }}"/>
         <div class="collection-album-info caption">
             <p>
-                <a class="album-name" href="album.html">{{ alubm.title }}</a>
+                <a class="album-name" href="album.html">{{ album.title }}</a>
                 <br/>
                 <a href="album.html">{{ album.artist }}</a>
                 <br/>

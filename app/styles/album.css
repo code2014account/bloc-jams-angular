@@ -8,6 +8,7 @@
  }
 
  .album-view-details {
+     text-align: center;
      position: relative;
      top: 1.5rem;
      padding: 1rem;
